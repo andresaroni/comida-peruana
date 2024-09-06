@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trichar Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <nav>
+
+            <i id="menu-nav" class="fa-solid fa-bars fa-xl"></i>
+
+            <i id="cerrar" class="fa-solid fa-x fa-xl"></i>
+
+            <img id="logo-img" src="img/logo.png" alt="Logo">
+
+            <ul class="links">
+                <li><a href="#main">Menu</a></li>
+                <li><a href="#main">Frituras</a></li>
+                <li><a href="#main">Menu Criollo</a></li>
+                <li><a href="#main">Bebidas</a></li>
+                <li><a href="#main">Caldos</a></li>
+            </ul>
+
+            <div class="botones" style="display: none;">
+                <button>Contact</button>
+                <div class="boton-toggle">
+                    <div class="indicador">
+                        <div class="btn-conten">
+                            <i class="btn-icon fa-solid fa-sun"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30" loop="true">
+
+        <swiper-slide id="swiper">
+            <div class="texto">
+                <h2>Hamburguesa 1</h2>
+                <p>Lorem, ipsum dolor 
+                    sit amet consectetur 
+                    adipisicing elit. 
+                    Doloribus accusamus</p>
+            </div>
+            <div class="imagen">
+                <img src="img/frito/burguer.webp" loading="lazy" alt="Burguer1">
+            </div>
+        </swiper-slide>
+
+        <swiper-slide>
+            
+            <div class="texto">
+                <h2>Hamburguesa 2</h2>
+                <p>Lorem, ipsum dolor 
+                    sit amet consectetur 
+                    adipisicing elit. 
+                    Doloribus accusamus</p>
+            </div>
+            <div class="imagen">
+                <img src="img/frito/burguer2.webp" loading="lazy" alt="Burguer1">
+            </div>
+        </swiper-slide>
+
+        <swiper-slide>
+            <div class="texto">
+                <h2>Hamburguesa 3</h2>
+                <p>Lorem, ipsum dolor 
+                    sit amet consectetur 
+                    adipisicing elit. 
+                    Doloribus accusamus</p>
+            </div>
+            <div class="imagen">
+                <img src="img/frito/salchipapa.webp" loading="lazy" alt="Burguer1">
+            </div>
+        </swiper-slide>
+        
+    </swiper-container>
+
+    <main id="main">
+
+        <div class="titulo">
+            <h2>Menú</h2>
+        </div>
+
+        <div class="menus-titulos">
+            <p id="opcion-del-dia">Del día</p>
+            <p id="opcion-frituras">Frituras</p>
+            <p id="opcion-hamburguesas" >Hamburguesas</p>
+            <p id="opcion-caldos" >Caldos</p>
+        </div>
+
+        <div class="contenedor-menus">
+
+            <div id="menu-principal-id" class="menu-principal">
+
+                <div class="contenido">
+                    <img src="img/frito/burguer.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="img/frito/burguer.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="img/frito/burguer.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="img/frito/burguer.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="img/frito/burguer.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div id="frituras-id" class="menu-frituras" style="display:none;">
+
+                <div class="contenido">
+                    <img src="img/frito/salchipapa.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="img/frito/salchipapa.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="img/frito/salchipapa.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="img/frito/salchipapa.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="contenido">
+                    <img src="img/frito/salchipapa.webp" loading="lazy" width="200px" height="150px" alt="Arroz con Pollo">
+                    <div class="texto-menu">
+                        <h4>Arroz con Pollo</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="menu-hamburguesas-id" class="menu-hamburguesas">
+                Burguer
+            </div>
+    
+            <div id="menu-criollo-id" class="menu-criollo">
+                Menu Criollo
+            </div>
+    
+            <div class="bebidas">
+                Bebidas Frias Calientes
+            </div>
+    
+            <div class="caldos">
+                Caldos
+            </div>
+        </div>
+        
+    </main>
+
+    <section id="horarios" class="horarios">
+
+        <div class="conten-horario">
+
+            <h2>Horario</h2>
+
+            <div class="content-datos">
+                
+                <div class="datos">
+                    <p id="p-titulo">Direccion</p>
+                    <p>Calle y la que cruz</p>
+                </div>
+
+                <div class="datos">
+                    <p id="p-titulo">Horario</p>
+                    <p>lunes a Viernes 8:00 a 14:00</p>
+                </div>
+
+                <div class="datos">
+                    <p id="p-titulo">Telefono</p>
+                    <p>099999</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.52300824488!2d-80.22945845000001!3d25.7824075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses!2sec!4v1725573967371!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        Footer o Pie de Pagina
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
